@@ -1,0 +1,3 @@
+# macOS: Vision framework OCR (Apple Silicon 最適化)
+pyobjc-framework-Vision>=9.0
+pyobjc-framework-Quartz>=9.0

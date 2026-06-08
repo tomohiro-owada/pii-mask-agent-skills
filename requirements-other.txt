@@ -1,0 +1,2 @@
+# Windows / Linux: EasyOCR (初回 ~500MB モデルダウンロード)
+easyocr>=1.7.0

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "pii-mask-agent-skills"
+version = "0.1.0"
+description = "PII detection and masking CLI using openai/privacy-filter"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "pypdf>=4.0.0",
+    "pymupdf>=1.24.0",
+]
+
+[project.scripts]
+privacy-mask = "mask:main"
+
+[tool.setuptools]
+py-modules = ["mask"]

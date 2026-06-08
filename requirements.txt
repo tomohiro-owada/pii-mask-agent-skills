@@ -1,0 +1,5 @@
+# transformers 5.x は現在 git インストールが必要（openai/privacy-filter 対応）
+# pip install git+https://github.com/huggingface/transformers.git
+torch>=2.0.0
+pypdf>=4.0.0
+pymupdf>=1.24.0
